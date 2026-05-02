@@ -52,7 +52,7 @@ pass/fail verdict for every check. Runs end-to-end on a single CPU core.
 ### `Channel-Level-Diagnostic_figures_.ipynb` — figure generation
 
 
-### `Channel-Level-Diagnostic_ibm_hardware_bloch_ordering_probe.ipynb` — Appendix A probe
+### `Channel-Level-Diagnostic_ibm_hardware_bloch_ordering_probe.ipynb` — 
 
 Runs the optional one-qubit ordering probe on real IBM Quantum hardware via
 Qiskit Runtime. Compares two orderings of non-commuting single-qubit
@@ -61,7 +61,7 @@ vectors in the $X$, $Y$, and $Z$ bases, and reports the Bloch-vector
 distance with a 5000-resample bootstrap confidence interval. Outputs are
 saved to `hardware_results/` named by `<backend>_<job_id>`. This probe is a
 hardware-execution sanity check, **not** a hardware estimate of $C_G$ or
-$\Delta_G$ — see Appendix A of the manuscript for the exact scope.
+$\Delta_G$.
 
 ---
 
