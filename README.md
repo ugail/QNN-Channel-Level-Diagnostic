@@ -19,6 +19,7 @@ verdict table, and every numerical value reported in the paper from a CPU
 runtime, with no proprietary hardware or non-public software dependencies.
 
 ---
+<img width="1104" height="830" alt="Figure5" src="https://github.com/user-attachments/assets/c3142ada-e7a4-4bd5-8f7a-5be750838326" />
 
 ## What's in this repository
 
@@ -30,12 +31,6 @@ runtime, with no proprietary hardware or non-public software dependencies.
 │   └── Channel-Level-Diagnostic_ibm_hardware_bloch_ordering_probe.ipynb
 │                                                                 # appendix hardware probe
 ├── results/                  # CSV outputs from the pilot notebook
-├── figures/                  # PNG outputs from the figures notebook
-├── hardware_results/         # JSON + CSV outputs from the IBM probe
-├── manuscript/               # LaTeX source and compiled PDF
-├── environment.yml           # conda environment specification
-├── requirements.txt          # pip alternative
-├── LICENSE
 └── README.md
 ```
 
