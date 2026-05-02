@@ -1,0 +1,122 @@
+{
+  "scope_note": "Optional hardware execution sanity check. This is not a hardware estimate of the paper's channel-level C_G.",
+  "metadata": {
+    "backend": "ibm_kingston",
+    "job_id": "d7qoqect738s73ceo4k0",
+    "shots": 4000,
+    "optimization_level": 1,
+    "timestamp_utc": "2026-05-02T05:36:08.988025+00:00",
+    "orders": [
+      "GE",
+      "EG"
+    ],
+    "bases": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "circuit_depths": {
+      "GE_X": 4,
+      "GE_Y": 2,
+      "GE_Z": 3,
+      "EG_X": 2,
+      "EG_Y": 4,
+      "EG_Z": 3
+    },
+    "circuit_ops": {
+      "GE_X": {
+        "rz": 2,
+        "sx": 1,
+        "barrier": 1,
+        "measure": 1
+      },
+      "GE_Y": {
+        "x": 1,
+        "barrier": 1,
+        "measure": 1
+      },
+      "GE_Z": {
+        "rz": 1,
+        "sx": 1,
+        "barrier": 1,
+        "measure": 1
+      },
+      "EG_X": {
+        "rz": 1,
+        "barrier": 1,
+        "measure": 1
+      },
+      "EG_Y": {
+        "rz": 2,
+        "sx": 1,
+        "barrier": 1,
+        "measure": 1
+      },
+      "EG_Z": {
+        "sx": 1,
+        "rz": 1,
+        "barrier": 1,
+        "measure": 1
+      }
+    }
+  },
+  "ideal_bloch": {
+    "GE": [
+      0.0,
+      -1.0,
+      2.220446049250313e-16
+    ],
+    "EG": [
+      1.0,
+      -2.220446049250313e-16,
+      2.220446049250313e-16
+    ]
+  },
+  "ideal_bloch_distance": 0.7071067811865475,
+  "hardware_counts": {
+    "GE_X": {
+      "0": 2009,
+      "1": 1991
+    },
+    "GE_Y": {
+      "0": 60,
+      "1": 3940
+    },
+    "GE_Z": {
+      "0": 2038,
+      "1": 1962
+    },
+    "EG_X": {
+      "0": 3893,
+      "1": 107
+    },
+    "EG_Y": {
+      "0": 1975,
+      "1": 2025
+    },
+    "EG_Z": {
+      "0": 1961,
+      "1": 2039
+    }
+  },
+  "hardware_bloch": {
+    "GE": [
+      0.0044999999999999485,
+      -0.97,
+      0.018999999999999906
+    ],
+    "EG": [
+      0.9464999999999999,
+      -0.012499999999999956,
+      -0.019499999999999962
+    ]
+  },
+  "hardware_bloch_distance": 0.6718728488337655,
+  "hardware_bloch_distance_bootstrap": {
+    "mean": 0.6720251408144222,
+    "std": 0.008285695891549958,
+    "q025": 0.6555193503997498,
+    "q500": 0.6718537554736426,
+    "q975": 0.6886452392064113
+  }
+}

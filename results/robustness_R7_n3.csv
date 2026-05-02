@@ -1,0 +1,6 @@
+channel,Delta_G,type,rule,result
+identity,0.0,equivariant,< 1e-10,PASS
+depol_p=0.3,3.483373023850559e-18,equivariant,< 1e-10,PASS
+amp_damp_eps=0.3,4.2390865208618354e-18,equivariant,< 1e-10,PASS
+coherent_X_eps=0.3,0.0473758778900959,non-equivariant,> 1e-03,PASS
+haar_random_mean,0.07376393832572607,non-equivariant,> 1e-03,PASS

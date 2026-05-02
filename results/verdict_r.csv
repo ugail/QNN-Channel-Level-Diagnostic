@@ -1,0 +1,10 @@
+check,description,result
+R1,Delta_G < 1e-10 on every equivariant case,PASS
+R2,Non-trivial U(1)-equivariant unitary at floor,PASS
+R3,Non-trivial SU(2)-equivariant unitary at floor,PASS
+R4,U(1) Haar baseline robust across all seeds,PASS
+R5,SU(2) Haar baseline robust across all seeds,PASS
+R6,SU(2) sampling stability < 5% rel std at n=50,PASS
+R7,Dimension-invariant separation at n=3 qubits,PASS
+R8,All Kraus channels CPTP to 1e-10,PASS
+R9,Operator-norm ordering matches Frobenius,PASS

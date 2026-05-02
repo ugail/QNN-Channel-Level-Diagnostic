@@ -1,0 +1,11 @@
+check,setting,C_G,required,result
+V1,U(1) identity,1.0000,>= 0.99,PASS
+V2,U(1) Haar random,0.4938,<= 0.60,PASS
+V3,U(1) depol p=0.3,1.0000,>= 0.99,PASS
+V4,U(1) amp damp eps=0.3,1.0000,>= 0.99,PASS
+V5,U(1) coherent X eps=0.3,0.6227,<= 0.70,PASS
+V6,SU(2) identity,1.0000,>= 0.99,PASS
+V7,SU(2) Haar random,0.4391,<= 0.60,PASS
+V8,SU(2) depol p=0.3,1.0000,>= 0.99,PASS
+V9,SU(2) amp damp eps=0.3,0.8045,<= 0.85,PASS
+V10,SU(2) coherent X eps=0.3,0.6032,<= 0.70,PASS
