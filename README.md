@@ -93,12 +93,12 @@ mapping from manuscript content to file is:
 |---|---|
 | $U(1)$ sanity values | `sanity_u1.csv` |
 | $SU(2)$ sanity values | `sanity_su2.csv` |
-| $U(1)$ noise sweep (Fig. 2) | `sweep_u1.csv` |
-| $SU(2)$ noise sweep (Fig. 3) | `sweep_su2.csv` |
-| Mixed-noise sweep (Fig. 4) | `mixed_sweep.csv` |
-| R6 Haar sampling stability (Fig. 6) | `robustness_R6_sampling_stability.csv` |
+| $U(1)$ noise sweep  | `sweep_u1.csv` |
+| $SU(2)$ noise sweep  | `sweep_su2.csv` |
+| Mixed-noise sweep  | `mixed_sweep.csv` |
+| R6 Haar sampling stability  | `robustness_R6_sampling_stability.csv` |
 | R7 three-qubit check | `robustness_R7_n3.csv` |
-| Representation-blind channel distance $D_{\mathrm{Id}}$ (Table IV) | `comparison_channel_distance.csv` |
+| Representation-blind channel distance $D_{\mathrm{Id}}$  | `comparison_channel_distance.csv` |
 | V1–V10 correctness verdicts | `verdict_v.csv` |
 | R1–R9 robustness verdicts | `verdict_r.csv` |
 
@@ -121,7 +121,7 @@ required to reproduce any simulation result:
 
 If you use the cross-replay paradigm, the code in this repository, or the precomputed result tables, please cite:
 
-> H. Ugail and N. Howard,*A Channel-Level Diagnostic for Symmetry Breaking in Noisy Equivariant Quantum Neural Networks*, 2026. Under review.
+> H. Ugail and N. Howard, *A Channel-Level Diagnostic for Symmetry Breaking in Noisy Equivariant Quantum Neural Networks*, 2026. Under review.
 
 
 ---
