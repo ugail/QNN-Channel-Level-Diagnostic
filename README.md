@@ -80,8 +80,7 @@ distance with a 5000-resample bootstrap confidence interval. Outputs are
 saved to `results/` named by `<backend>_<job_id>`. The artefacts committed
 here come from job `d7qoqect738s73ceo4k0` on `ibm_kingston` (2026-05-02).
 This probe is a hardware-execution sanity check, **not** a hardware estimate
-of $C_G$ or $\Delta_G$ — see Appendix A of the manuscript for the exact
-scope.
+of $C_G$ or $\Delta_G$.
 
 ---
 
