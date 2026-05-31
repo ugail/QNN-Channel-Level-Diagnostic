@@ -3,7 +3,7 @@
 Reference implementation, data, and reproducibility package for
 
 > **A Channel-Level Diagnostic for Symmetry Breaking in Noisy Equivariant Quantum Neural Networks**
-> Hassan Ugail and Newton Howard
+> by H. Ugail and N. Howard
 
 This repository provides a training-free, channel-level audit
 that tests whether a noisy quantum neural network (QNN) still respects an
@@ -14,10 +14,7 @@ $C_G = \exp(-\gamma \Delta_G) \in [e^{-\gamma}, 1]$, where $C_G = 1$ exactly
 when the realised channel commutes with the target group action on the
 tested representation.
 
-The repository contains everything needed to reproduce every figure, every
-verdict table, and every numerical value reported in the paper from a CPU
-runtime, with no proprietary hardware or non-public software dependencies.
-The optional hardware probe additionally requires IBM Quantum access.
+<img width="1104" height="830" alt="Figure5" src="https://github.com/user-attachments/assets/6e0de82d-a3cf-4780-b041-7523e8be1edd" />
 
 ---
 
