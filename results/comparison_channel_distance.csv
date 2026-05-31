@@ -1,0 +1,4 @@
+channel,description,D_Id
+depolarising_p=0.3,"depolarising on both qubits, p=0.3",0.424330
+amp_damp_eps=0.3,"amplitude damping on both qubits, eps=0.3",0.364162
+coherent_X_q0_eps=0.3,"coherent X on qubit 0 only, eps=0.3",0.642040
