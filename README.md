@@ -119,7 +119,7 @@ required to reproduce any simulation result:
 
 ## Citation
 
-If you use the cross-replay paradigm, the code in this repository, or the precomputed result tables, please cite:
+If you use this diagnostic, any part of the code in this repository, or any results, tables, or figures, please cite:
 
 > H. Ugail and N. Howard, *A Channel-Level Diagnostic for Symmetry Breaking in Noisy Equivariant Quantum Neural Networks*, 2026. Under review.
 
